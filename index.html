@@ -4,17 +4,18 @@
 	<title>AR web</title>
 </head>
 <body>
-<div>
-<a href="usdz/shell.usdz" rel="ar"><img src="logo/shell.png" width=200 height=200></a>
-</div>
-<div>
-<a href="usdz/cube.usdz" rel="ar"><img src="logo/test.png" width=200 height=200></a>
-</div>
-<div>
-<a href="usdz/robot2.usdz" rel="ar"><img src="logo/01img.png" width=200 height=200></a>
-</div>
-<div>
-<a href="usdz/robotAnim.usdz" rel="ar"><img src="logo/logo3d01.png" width=200 height=200></a>
-</div>
+<model-viewer
+                src="stormtrooper.gltf" 
+                ios-src="usdz/robotAnim.usdz"
+                poster="a.png"
+                preload
+                reveal-when-loaded
+                ar
+                camera-controls
+                auto-rotate
+                autoplay
+                alt="model"
+                background-color="#ffffff">
+            </model-viewer>
 </body>
 </html>
